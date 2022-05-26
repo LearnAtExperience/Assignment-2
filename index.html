@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- Navbar starts -->
+  <nav
+    class="navBar navbar-light d-flex justify-content-evenly align-items-center justify-content-sm-between px-sm-5 py-4 sticky-top">
+    <a href="#" class="navbarBrand">
+      <img src="./assets/Images/spritle-logo.svg" alt="logo" class="logo">
+    </a>
+
+    <div class="navbarToggler">
+      <span class="line1"></span>
+      <span class="line2"></span>
+      <span class="line3"></span>
+    </div>
+
+    <ul
+      class="navbar-nav navMenu d-flex flex-column flex-xl-row justify-content-center align-items-center p-2 p-xl-0 gap-xl-3 ms-xl-auto">
+      <li class="nav-item">
+        <a href="#" class="nav-link">Our Works</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-bs-toggle="dropdown">
+          Services
+        </a>
+        <ul class="dropdown-menu myDrop">
+          <li><a class="dropdown-item text-primary" href="#">Home</a></li>
+          <li><a class="dropdown-item text-primary" href="#">Custom Software Development</a></li>
+          <li><a class="dropdown-item text-primary" href="#">Digital Healthcare Service</a></li>
+          <li><a class="dropdown-item text-primary" href="#">AI & ML Application Development Services</a></li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-bs-toggle="dropdown">
+          Products
+        </a>
+        <ul class="dropdown-menu myDrop">
+          <li><a class="dropdown-item text-primary" href="#">Our Products</a></li>
+          <li><a class="dropdown-item text-primary" href="#">Ruby Gems</a></li>
+          <li><a class="dropdown-item text-primary" href="#">Voice Bots</a></li>
+          <li><a class="dropdown-item text-primary" href="#">NLP Services</a></li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-bs-toggle="dropdown">
+          Company
+        </a>
+        <ul class="dropdown-menu myDrop">
+          <li><a class="dropdown-item text-primary" href="#">Our Process</a></li>
+          <li><a class="dropdown-item text-primary" href="#">Knowledge Sharing</a></li>
+          <li><a class="dropdown-item text-primary" href="#">About Us</a></li>
+          <li><a class="dropdown-item text-primary" href="#">Careers</a></li>
+          <li><a class="dropdown-item text-primary" href="#">Latest News</a></li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">Blogs</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">Contact</a>
+      </li>
+    </ul>
+  </nav>
+  <!-- Navbar ends -->
+
+  <!-- Hero section starts -->
+  <section
+    class="hero d-flex flex-column justify-content-center align-items-center flex-lg-row-reverse justify-content-lg-evenly">
+    <div class="d-flex justify-content-center align-items-center mb-2 mb-md-4 mb-lg-0 heroImgHolder">
+      <img
+        src="https://www.spritle.com/images/home/Software-Maintanance-and-proactive-Support.webp.pagespeed.ce.o2Geq6gr_E.webp"
+        alt="Hero Img" class="heroImg w-100">
+      <div class="d-inline-flex justify-content-center align-items-center rounded-circle text-white playIcon heroAbsol">
+        <i class="fas fa-play"></i>
+      </div>
+      <div class="heroImgCircle heroAbsol"></div>
+      <div class="heroImgCircle heroAbsol"></div>
+    </div>
+    <div class="d-flex flex-column justify-content-center align-items-start heroContentHolder">
+      <div class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active myContentHolder">
+            <h1 class="myContent">
+              Hand-crafted Software & Exciting Digital Solutions to Inspire the <strong>Future.</strong>
+            </h1>
+          </div>
+          <div class="carousel-item myContentHolder">
+            <h1 class="myContent">
+              Your go to <strong>Technology Partner</strong> for a best ever <strong>Automation Experience.</strong>
+            </h1>
+          </div>
+          <div class="carousel-item myContentHolder">
+            <h1 class="myContent">
+              <strong>Reimagining & Re-engineering</strong> Enterprise Solutions towards <strong>efficiency.</strong>
+            </h1>
+          </div>
+        </div>
+      </div>
+      <p class="myContent stableHeroText">
+        Advanced custom made Softwares.
+        <br> Premium Apps, Portals & Digital Solutions.
+        <br> We aim to innovate cutting-edge technologies for a better tomorrow.
+      </p>
+      <div class="d-flex justify-content-center align-items-center heroBtnHolder">
+        <button class="d-inline-flex justify-content-center align-items-center heroButton">Get in touch</button>
+        <i class="fas fa-chevron-right d-inline-flex justify-content-center align-items-center"></i>
+      </div>
+    </div>
+  </section>
+  <!-- Hero section ends -->
+
+
+
+
+
+
+
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+  </script>
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
