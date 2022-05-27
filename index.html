@@ -126,6 +126,103 @@
   </section>
   <!-- Hero section ends -->
 
+  <!-- NHS Section starts -->
+  <section class="d-flex flex-column justify-content-center align-items-center gap-2 flex-lg-row gap-lg-4 nhs">
+    <img src="https://www.spritle.com/images/casestudies/Functional-Medicine.webp.pagespeed.ce.efOXyGXjgQ.webp"
+      alt="NHS Image" class="nhsImg">
+
+    <div class="d-flex flex-column justify-content-center align-items-center nhsContentHolder">
+      <h2 class="align-self-start nhsContent">Nestle Health Science</h2>
+      <h4 class="align-self-start nhsContent">The New Standard For Functional Medicine</h4>
+      <p class="align-self-start nhsContent">LivingMatrix is the only technology-based,
+        <strong>clinician-designed functional medicine platform</strong>
+        for practitioners to effectively evaluate patients, create personalized actionable care plans, and track
+        superior health outcomes over time.
+      </p>
+
+      <div class="nhsCounterContent">
+        <div class="counter-up">
+          <div class="d-flex flex-wrap justify-content-center align-items-center justify-content-xl-evenly content">
+            <!-- Counter 1 -->
+            <div class="d-flex flex-column justify-content-center align-items-center counterNumHolder">
+              <div class="countNum">
+                <h1 class="counter">90</h1>
+              </div>
+              <p class="counterText">MVP</p>
+            </div>
+            <!-- Counter 2 -->
+            <div class="d-flex flex-column justify-content-center align-items-center counterNumHolder">
+              <div class="d-flex justify-content-center align-items-center countNum">
+                <h1 class="counter">900</h1>
+                <h1>+</h1>
+              </div>
+              <p class="counterText">Practices</p>
+            </div>
+            <!-- Counter 3 -->
+            <div class="d-flex flex-column justify-content-center align-items-center counterNumHolder">
+              <div class="d-flex justify-content-center align-items-center countNum">
+                <h1 class="counter">1500</h1>
+                <h1>+</h1>
+              </div>
+              <p class="counterText">Practitioners</p>
+            </div>
+            <!-- Counter 4 -->
+            <div class="d-flex flex-column justify-content-center align-items-center counterNumHolder">
+              <div class="d-flex justify-content-center align-items-center countNum">
+                <h1 class="counter">3</h1>
+                <h1>K+</h1>
+              </div>
+              <p class="counterText">Patients</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="lineBreak"></div>
+
+      <div class="listContent">
+        <!-- List 1 -->
+        <div class="d-flex justify-content-start align-items-baseline gap-2 list">
+          <svg viewBox="0 0 18 13" class="text-primary mr-2 myTick" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2 6.125L6.91892 11L16 2" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+              stroke-linejoin="round"></path>
+          </svg>
+          <p>The LivingMatrix Practitioner Research Network is the first of its kind.</p>
+        </div>
+
+        <!-- List 2 -->
+        <div class="d-flex justify-content-start align-items-baseline gap-2 align-self-start list">
+          <svg viewBox="0 0 18 13" class="text-primary mr-2 myTick" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2 6.125L6.91892 11L16 2" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+              stroke-linejoin="round"></path>
+          </svg>
+          <p>
+            A formal practice-based research network of functional medicine practitioners and practices
+          </p>
+        </div>
+
+        <!-- List 3 -->
+        <div class="d-flex justify-content-start align-items-baseline gap-2 align-self-start list">
+          <svg viewBox="0 0 18 13" class="text-primary mr-2 myTick" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2 6.125L6.91892 11L16 2" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+              stroke-linejoin="round"></path>
+          </svg>
+          <p>
+            The LM-PRN is an exciting opportunity for practitioner members to participate in research collaborations,
+            contribute to the evidence base, build industry recognition and grow credibility for their practices
+            including
+          </p>
+        </div>
+
+      </div>
+
+      <div class="d-flex justify-content-center align-items-center align-self-end mt-3 heroBtnHolder">
+        <button class="d-inline-flex justify-content-center align-items-center heroButton">Read More..</button>
+        <i class="fas fa-chevron-right d-inline-flex justify-content-center align-items-center"></i>
+      </div>
+    </div>
+  </section>
+  <!-- NHS Section ends -->
 
 
 
@@ -133,11 +230,28 @@
 
 
 
+
+
+  <!-- jQuery CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js">
   </script>
+  <!-- Couterup JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+  <!-- Way Points JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+  <!-- Custom JS -->
   <script src="./assets/js/script.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $(".counter").counterUp({
+        delay: 10,
+        time: 1500,
+      })
+    });
+  </script>
 </body>
 
 </html>
