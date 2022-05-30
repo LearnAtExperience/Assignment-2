@@ -5,6 +5,7 @@
 /* Variable declaration */
 :root {
   --grey: #808080;
+  --lightgrey: #cecece;
   --black: rgba(0, 0, 0, 0.5);
   --white: #ffffff;
   --palewhite: #f6f6f6;
@@ -221,6 +222,26 @@ h4.nhsContent {
 
 .list p {
   width: fit-content;
+}
+
+.myTabPane.active {
+  background-color: var(--skyblue) !important;
+}
+
+.sectTitle {
+  width: 75%;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.processNavLink i {
+  font-size: 35px;
+  color: var(--lightgrey);
+}
+
+.proNavLinkText {
+  color: black;
+  font-weight: bold;
+  font-family: 'Quicksand', sans-serif;
 }
 
 /* Media Queries Starts */
