@@ -280,79 +280,208 @@
 
   <!-- Process section starts -->
 
-  <scetion class="process">
+  <section class="py-5 process">
     <h1 class="text-center mx-auto mb-5 sectTitle processSecTitle">Our Quintessential Process To Achieve Perfection</h1>
 
     <div class="processContentHolder">
-      <div class="nav nav-justified gap-2">
+      <div class="nav flex-wrap justify-content-center align-items-center gap-2 gap-xl-0">
         <!-- Link 1 -->
-        <a href=""
-          class="nav-link processNavLink d-flex flex-column justify-content-center align-items-center gap-3 active"
-          data-bs-toggle="tab">
-          <i class="far fa-circle"></i>
+        <a href="#onboarding"
+          class="nav-link active d-flex flex-column justify-content-center align-items-center gap-3 processNavLink"
+          data-bs-toggle="tab" id="onboard">
+          <i class=" far fa-circle"></i>
           <p class="proNavLinkText">Onboarding & Discovery</p>
         </a>
 
         <!-- Link 2 -->
-        <a href="" class="nav-link processNavLink d-flex flex-column justify-content-center align-items-center gap-3"
-          data-bs-toggle="tab">
+        <a href="#wireframes"
+          class="nav-link processNavLink d-flex flex-column justify-content-center align-items-center gap-3"
+          data-bs-toggle="tab" id="wireframe">
           <i class="far fa-circle"></i>
           <p class="proNavLinkText">Wireframes & UX Designs</p>
         </a>
 
         <!-- Link 3 -->
-        <a href="" class="nav-link processNavLink d-flex flex-column justify-content-center align-items-center gap-3"
-          data-bs-toggle="tab">
+        <a href="#development"
+          class="nav-link processNavLink d-flex flex-column justify-content-center align-items-center gap-3"
+          data-bs-toggle="tab" id="develop">
           <i class="far fa-circle"></i>
           <p class="proNavLinkText">Development</p>
         </a>
 
         <!-- Link 4 -->
-        <a href="" class="nav-link processNavLink d-flex flex-column justify-content-center align-items-center gap-3"
-          data-bs-toggle="tab">
+        <a href="#testing"
+          class="nav-link processNavLink d-flex flex-column justify-content-center align-items-center gap-3"
+          data-bs-toggle="tab" id="test">
           <i class="far fa-circle"></i>
           <p class="proNavLinkText">Testing</p>
         </a>
 
         <!-- Link 5 -->
-        <a href="" class="nav-link processNavLink d-flex flex-column justify-content-center align-items-center gap-3"
-          data-bs-toggle="tab">
+        <a href="#launch"
+          class="nav-link processNavLink d-flex flex-column justify-content-center align-items-center gap-3"
+          data-bs-toggle="tab" id="launching">
           <i class="far fa-circle"></i>
           <p class="proNavLinkText">Launch and Maintenance</p>
         </a>
       </div>
+
+      <div class="tab-content">
+        <!-- Tab content 1 -->
+        <div class="tab-pane show active" id="onboarding">
+
+          <div
+            class="d-flex flex-column justify-content-center align-items-center flex-lg-row gap-4 gap-lg-5 tabContentHolder">
+            <img
+              src="https://www.spritle.com/images/Company-Our-process1/Onboarding-Vendor-and-Software-Requirement-Analysis.webp.pagespeed.ce.dq3VpXkw9q.webp"
+              alt="Image" class="tabContentImg">
+
+            <div class="tabContentTextHolder">
+              <h1 class="tabContentText fw-bold mb-3">Task Management</h1>
+              <p class="tabContentText">
+                Collaborate with our analysts to help us understand your pain points and derive at the most optimal
+                solution.
+              </p>
+
+              <div class="d-flex justify-content-center align-items-center align-self-end mt-5 heroBtnHolder">
+                <button class="d-inline-flex justify-content-center align-items-center heroButton">View More</button>
+                <i class="fas fa-chevron-right d-inline-flex justify-content-center align-items-center"></i>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Tab content 2 -->
+        <div class="tab-pane" id="wireframes">
+
+          <div
+            class="d-flex flex-column justify-content-center align-items-center flex-lg-row gap-4 gap-lg-5 tabContentHolder">
+            <img
+              src="https://www.spritle.com/images/Company-Our-process1/xCustom-Wireframes-and-UX-Design.webp.pagespeed.ic.aBZBgbYslR.webp"
+              alt="Image" class="tabContentImg">
+
+            <div class="tabContentTextHolder">
+              <h1 class="tabContentText fw-bold mb-3">User Experience</h1>
+              <p class="tabContentText">
+                We understand the experience you wish to share with your users. We provide our expertise to bring an
+                easy user experience to your hands.
+              </p>
+
+              <div class="d-flex justify-content-center align-items-center align-self-end mt-5 heroBtnHolder">
+                <button class="d-inline-flex justify-content-center align-items-center heroButton">View More</button>
+                <i class="fas fa-chevron-right d-inline-flex justify-content-center align-items-center"></i>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Tab content 3 -->
+        <div class="tab-pane" id="development">
+
+          <div
+            class="d-flex flex-column justify-content-center align-items-center flex-lg-row gap-4 gap-lg-5 tabContentHolder">
+            <img
+              src="https://www.spritle.com/images/Company-Our-process1/xCustom-and-Legacy-Application-Development.webp.pagespeed.ic.yvEKDFbcxt.webp"
+              alt="Image" class="tabContentImg">
+
+            <div class="tabContentTextHolder">
+              <h1 class="tabContentText fw-bold mb-3">Task Collaboration</h1>
+              <p class="tabContentText">
+                We take small stories at a time and iteratively complete them to obtain exceptional business results
+              </p>
+
+              <div class="d-flex justify-content-center align-items-center align-self-end mt-5 heroBtnHolder">
+                <button class="d-inline-flex justify-content-center align-items-center heroButton">View More</button>
+                <i class="fas fa-chevron-right d-inline-flex justify-content-center align-items-center"></i>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Tab content 4 -->
+        <div class="tab-pane" id="testing">
+
+          <div
+            class="d-flex flex-column justify-content-center align-items-center flex-lg-row gap-4 gap-lg-5 tabContentHolder">
+            <img
+              src="https://www.spritle.com/images/Company-Our-process1/xQuality-Analysis-and-User-Acceptance-Testing.webp.pagespeed.ic.88TKzObael.webp"
+              alt="Image" class="tabContentImg">
+
+            <div class="tabContentTextHolder">
+              <h1 class="tabContentText fw-bold mb-3">Testing</h1>
+              <p class="tabContentText">
+                We build quality into your product and application delivery lifecycle at any stage of your project by
+                constantly testing
+              </p>
+
+              <div class="d-flex justify-content-center align-items-center align-self-end mt-5 heroBtnHolder">
+                <button class="d-inline-flex justify-content-center align-items-center heroButton">View More</button>
+                <i class="fas fa-chevron-right d-inline-flex justify-content-center align-items-center"></i>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Tab content 5 -->
+        <div class="tab-pane" id="launch">
+
+          <div
+            class="d-flex flex-column justify-content-center align-items-center flex-lg-row gap-4 gap-lg-5 tabContentHolder">
+            <img
+              src="https://www.spritle.com/images/Company-Our-process1/Software-Maintenance-and-Proactive-Support.webp.pagespeed.ce._IjsBR66HM.webp"
+              alt="Image" class="tabContentImg">
+
+            <div class="tabContentTextHolder">
+              <h1 class="tabContentText fw-bold mb-3">Launch And Maintenance</h1>
+              <p class="tabContentText">
+                We don't walk away until your business is set. We stay till the system solves your purpose
+              </p>
+
+              <div class="d-flex justify-content-center align-items-center align-self-end mt-5 heroBtnHolder">
+                <button class="d-inline-flex justify-content-center align-items-center heroButton">View More</button>
+                <i class="fas fa-chevron-right d-inline-flex justify-content-center align-items-center"></i>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
     </div>
-  </scetion>
+    </scetion>
 
-  <!-- Process section ends -->
-
-
+    <!-- Process section ends -->
 
 
 
 
 
 
-  <!-- jQuery CDN -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <!-- Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js">
-  </script>
-  <!-- Couterup JS -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
-  <!-- Way Points JS -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-  <!-- Custom JS -->
-  <script src="./assets/js/script.js"></script>
 
-  <script>
-    $(document).ready(function () {
-      $(".counter").counterUp({
-        delay: 10,
-        time: 1500,
-      })
-    });
-  </script>
+
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js">
+    </script>
+    <!-- Couterup JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <!-- Way Points JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <!-- Custom JS -->
+    <script src="./assets/js/script.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $(".counter").counterUp({
+          delay: 10,
+          time: 1500,
+        })
+      });
+    </script>
 </body>
 
 </html>

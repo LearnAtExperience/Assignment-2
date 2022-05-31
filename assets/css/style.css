@@ -233,6 +233,20 @@ h4.nhsContent {
   font-family: 'Quicksand', sans-serif;
 }
 
+.processNavLink {
+  width: 90%;
+}
+
+.processNavLink.active * {
+  color: var(--skyblue);
+  transition: all 300ms ease;
+}
+
+.processNavLink:nth-child(3),
+.processNavLink:nth-child(4) {
+  width: 45%;
+}
+
 .processNavLink i {
   font-size: 35px;
   color: var(--lightgrey);
@@ -244,6 +258,19 @@ h4.nhsContent {
   font-family: 'Quicksand', sans-serif;
 }
 
+.tabContentImg {
+  width: 80%;
+}
+
+.tabContentTextHolder {
+  width: 90%;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.tabContentText:nth-child(2) {
+  font-weight: 500;
+}
+
 /* Media Queries Starts */
 
 /* Stylings for 576px devices */
@@ -251,12 +278,53 @@ h4.nhsContent {
   .myContentHolder {
     height: 235px;
   }
+
+  .tabContentImg {
+    width: 50%;
+  }
+
+  .tabContentTextHolder {
+    width: 80%;
+    font-family: 'Quicksand', sans-serif;
+    align-self: flex-start;
+  }
+
+  .tabContentHolder {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .processNavLink:first-child,
+  .processNavLink:nth-child(2) {
+    width: 45%;
+  }
+
+  .processNavLink:nth-child(3),
+  .processNavLink:nth-child(4) {
+    width: 35%;
+  }
 }
 
 /* Stylings for 768px devices */
 @media (min-width: 768px) {
   .myContentHolder {
     height: 200px;
+  }
+
+  .processNavLink:first-child,
+  .processNavLink:nth-child(2),
+  .processNavLink:nth-child(3) {
+    width: 30%;
+  }
+
+
+  .processNavLink:nth-child(4),
+  .processNavLink:nth-child(5) {
+    width: 35%;
+  }
+
+  .tabContentImg {
+    width: 40%;
   }
 }
 
@@ -299,6 +367,20 @@ h4.nhsContent {
   .nhsContentHolder {
     width: 40%;
   }
+
+  .processNavLink {
+    width: 20% !important;
+    font-size: 13px !important;
+  }
+
+  .tabContentImg {
+    width: 35%;
+  }
+
+  .tabContentTextHolder {
+    width: 45%;
+    align-self: center;
+  }
 }
 
 /* Stylings for 1200px devices */
@@ -331,5 +413,9 @@ h4.nhsContent {
 
   .counterNumHolder {
     margin: 0;
+  }
+
+  .processNavLink {
+    width: 18% !important;
   }
 }
